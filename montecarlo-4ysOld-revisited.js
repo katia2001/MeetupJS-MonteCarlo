@@ -43,11 +43,5 @@ for (var mc = 0; mc < MCRuns; mc++){
 	ok = false;
 }
 
-
 console.log("Probability:" + Math.round( prob / MCRuns * 100 ));
 console.log(Date.now() - tm);
-
-//Tiempo:  545ms Chrome para 100K
-//Tiempo:  422ms Node para 100K
-//Tiempo:  FF para 100K no termina en tiempo razonable
-//Tiempo:  17323ms FF para 10K
