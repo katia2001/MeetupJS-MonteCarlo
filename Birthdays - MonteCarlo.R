@@ -7,8 +7,8 @@ cuenta = 0
 
 for(k in 1:simulaciones){
     fechas = floor(runif(personas, 1, 365))
-    tst = sum(diff(sort(fechas),coincidencias-1)==0)
-    if(tst > 0) cuenta = cuenta + 1
+    tst = any(diff(sort(fechas),coincidencias-1)==0)
+    if(tst) cuenta = cuenta + 1
 }
 
 resultado = cuenta/simulaciones * 100
