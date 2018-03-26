@@ -1,5 +1,5 @@
-personas = 50
-coincidencias = 2
+personas = 5
+coincidencias = 3
 simulaciones = 100000
 cuenta = 0
 
